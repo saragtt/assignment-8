@@ -1,0 +1,132 @@
+.background {
+  background-color: lightgray;
+  padding-bottom: 70px;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-start;
+  padding: 0px 10px 10px 10px;
+  margin-top: 0px;
+}
+
+.header a {
+  flex: 1;
+  font-size: large;
+}
+
+.header h1 {
+  background: gray;
+  padding: 5px;
+  flex: 1;
+  margin-top: 0px;
+}
+
+.top-right {
+  display: flex;
+  font-size: 12px;
+  justify-content: flex-end;
+  gap: 5px;
+  flex: 1;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  background-color: lightgray;
+  padding-right: 20px;
+}
+
+.column-1 {
+  flex: 1.5;
+  background-color: gray;
+  margin-left: 50px;
+}
+
+.column-2 {
+  flex: 1.5;
+  text-align: start;
+}
+
+.housing {
+  margin-bottom: 20px;
+}
+
+.sale {
+  margin-bottom: 20px;
+}
+
+.community-event {
+  margin-bottom: 10px;
+}
+
+.personal {
+  margin-bottom: 20px;
+}
+
+.column-3 {
+  flex: 2;
+}
+
+.column-4 {
+  flex: 2;
+  text-align: start;
+}
+
+.column-2 a,
+.column-3 a,
+.column-4 a,
+.column-2 p {
+  display: block;
+  background-color: white;
+  padding: 4px;
+  text-align: left;
+  margin: 0px 0px 0px 0px;
+  border: 1px solid lightgray;
+}
+
+.column-2 h2,
+.column-3 h2,
+.column-4 h2 {
+  background: gray;
+  display: block;
+  padding: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 20px;
+}
+
+.resumes {
+  display: block;
+  background-color: lightgray;
+}
+
+.top-links a {
+  font-weight: bold;
+  padding: 5px;
+  background-color: lightgray;
+  margin: 5px 5px 5px 5px;
+}
+.top-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.bottom-links a {
+  display: block;
+  margin: 15px 5px 15px 5px;
+  text-align: center;
+}
+.search input,
+.search button,
+.search select {
+  display: block;
+  text-align: left;
+}
+
+.search {
+  background-color: lightgray;
+  margin: 5px;
+}
